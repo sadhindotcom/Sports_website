@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallary</title>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light  black_backgraound_navber">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./logo.png" alt="..." height="50">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              
+              <li class="nav-item px-2 ">
+                <a class="nav-link active colour_black" aria-current="page" href="./index.html">Home</a>
+              </li>
+              
+              <li class="nav-item px-2">
+                <a class="nav-link active colour_black" aria-current="page" href="./about.html">About</a>
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle colour_black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Event
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Live</a>
+                  <a class="dropdown-item" href="#">Upcoming</a>
+                  <a class="dropdown-item" href="#">Previous</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Others</a>
+                </div>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active colour_black" aria-current="page" href="#">Category</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active colour_black" aria-current="page" href="#">Gallery</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link active colour_black" aria-current="page" href="#contact">Contact</a>
+              </li>
+              <!--
+              <div class="mx-2">
+                <button class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+                <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
+              </div>
+              -->
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn "
+              data-toggle="collapse"
+              data-target="#collapse1"
+              aria-expanded="true"
+              aria-controls="collapse1"
+            >
+              Football
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapse1"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading2">
+          <h5 class="mb-0">
+            <button
+              class="btn "
+              data-toggle="collapse"
+              data-target="#collapse2"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Cricket
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapse2"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn "
+              data-toggle="collapse"
+              data-target="#collapse3"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Chess
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapse3"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn "
+              data-toggle="collapse"
+              data-target="#collapse4"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Carrom
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapse4"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn "
+              data-toggle="collapse"
+              data-target="#collapse5"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Badminton
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapse5"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn "
+              data-toggle="collapse"
+              data-target="#collapse6"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Vollyball
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapse6"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button
+              class="btn  collapsed"
+              data-toggle="collapse"
+              data-target="#collapse7"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Table Tennis
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapse7"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button
+              class="btn  collapsed"
+              data-toggle="collapse"
+              data-target="#collapse8"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Athletics
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapse8"
+          class="collapse "
+          aria-labelledby="headingOne"
+          data-parent="#accordion"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Wintry Mountain Landscape"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Mountains in the Clouds"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Boat on Calm Water"
+                />
+              </div>
+
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Waves at Sea"
+                />
+
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  alt="Yosemite National Park"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <img src="logo.png" width="100px" height="100px" alt="">
+                        <p>Sportrix, the sports cell of Kalyani government engineering college</p>
+                        <p>Kalyani, Nadia,741235</p>
+
+                        <h3>We Accept</h3>
+                        <div class="card-area">
+                            <i class="fa fa-cc-visa"></i>
+                            <i class="fa fa-credit-card"></i>
+                            <i class="fa fa-cc-mastercard"></i>
+                            <i class="fa fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2 style="color: gold;">Contact Us</h2>
+                        <p>phone: +91 3325821309</p>
+                        <p>Mail: contact@kgec.edu.in</p>
+                    </div>
+                    <!--Google map-->
+                    <div id="map-container-google-1" class=" map-container" style="height: 200px">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.8813544980603!2d88.44659801496721!3d22.991389984968823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8952d71094a7f%3A0x8f1c6d3ff467d96b!2sKalyani%20Government%20Engineering%20College!5e0!3m2!1sen!2sin!4v1678033004741!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      
+                    </div>
+
+                    <!--Google Maps-->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2 style="color: gold;">Category</h2>
+                        <ul>
+                            <li><a href="#gallery">Cricket</a></li>
+                            <li><a href="#gallery">Football</a></li>
+                            <li><a href="#gallery">Chess</a></li>
+                            <li><a href="#gallery">Vollyball</a></li>
+                            <li><a href="#gallery">Table Tennis</a></li>
+                            <li><a href="#gallery">Carrom</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-box">
+                        <h2 style="color: gold;">Faculty</h2>
+                        <ul>
+                            <li><a href="#card">Faculty 1</a></li>
+                            <li><a href="#card">Faculty 2</a></li>
+                            <li><a href="#card">Faculty 3</a></li>
+                        </ul>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2"><i
+                                    class="fa fa-long-arrow-right"></i></span>
+                        </div>
+                        <hr>
+                        <div class="socials">
+                            <h2>Follow us on</h2>
+
+                            <a href="https://www.facebook.com/groups/461010607266206"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="https://kgec.edu.in/index"><i class="fa fa-globe"></i></a>
+                            <a href="https://www.linkedin.com/school/kgec/"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last">All &copy; copyrights reserved for 2023</div>
+    </footer>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+
+  </body>
+</html>
